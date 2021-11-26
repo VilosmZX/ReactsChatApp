@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, {useState} from 'react';
 import { Channel, useChatContext } from 'stream-chat-react';
 import { UserList } from './';
