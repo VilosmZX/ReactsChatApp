@@ -76,9 +76,9 @@ const TeamChannelHeader = ({ setIsEditing }) => {
     };
   
     const getWatcherText = (watchers) => {
-      if (!watchers) return 'No users online';
+      if (!watchers) return 'Tidak ada yang online';
       if (watchers === 1) return '1 user online';
-      return `${watchers} users online`;
+      return `${watchers} user sedang online`;
     };
   
     return (

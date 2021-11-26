@@ -1,10 +1,15 @@
-import React from 'react'
+/* eslint-disable no-unused-vars */
+import React from 'react';
+import { MessageTeam, useMessageContext } from 'stream-chat-react';
 
 const TeamMessage = () => {
+    const { handleOpenThread, message } = useMessageContext();
+
     return (
-        <div>
-            TeamMessage
-        </div>
+        <MessageTeam
+            message={{ ...message, user: {}}}
+            // handleOpenThread={}
+        />
     )
 }
 
